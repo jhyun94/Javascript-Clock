@@ -1,20 +1,26 @@
 html {
-  background-image: url("998.jpg");
+  background: url("998.jpg");
   background-size: cover;
 }
 
 .clock {
   border-radius: 50%;
-  height: 300px;
-  width: 300px;
-  border: 5px solid #000;
-  position: relative;
-  top: 180px;
-  left: 40%;
-  text-align: center;
+  border: 20px solid #007134;
+  height: 20rem;
+  width: 20rem;
+/*  position: relative;*/
+  margin: 50px auto;
 }
-
+.face {
+  width: 100%;
+  height: 100%;
+  transform: translateY(-3px);
+  position: relative;
+}
 .hand {
-  /*transform: rotate(90deg);*/
-  border: 2px solid-black;
+  width: 50%;
+  background: #007134;
+  top: 50%;
+  position: absolute;
+  height: 6px;
 }
