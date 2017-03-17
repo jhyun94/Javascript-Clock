@@ -23,4 +23,7 @@ html {
   top: 50%;
   position: absolute;
   height: 6px;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  transition: .05s;
 }
